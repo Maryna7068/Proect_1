@@ -1,8 +1,7 @@
 public class Shop {
-    static boolean isEdekaOpen = true;
-    static boolean isReweOpen = true;
 
-    static boolean canBuy() {
+
+    static boolean canBuy(boolean isEdekaOpen, boolean isReweOpen) {
         if (isEdekaOpen == true || isReweOpen == true) {
             return true;
 
@@ -13,7 +12,7 @@ public class Shop {
     }
 
     public static void main(String[] args) {
-        System.out.println("Я могу купить еду, это " + ((Shop.canBuy())?"правда":"неправда"));
+        System.out.println("Я могу купить еду, это " + ((Shop.canBuy(true,false)) ? "правда" : "неправда"));
 
     }
 
