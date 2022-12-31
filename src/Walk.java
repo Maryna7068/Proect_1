@@ -11,9 +11,9 @@ public class Walk {
 
 
 
-//        boolean isWeekend=false;
-//        boolean isRain=false;
-//        boolean canWalk = (isWeekend == true && isRain == false) ? true : false;
+        boolean isWeekend=false;
+        boolean isRain=false;
+        boolean canWalk = (isWeekend == true && isRain == false) ? true : false;
 
 
 //        boolean canWalk;
