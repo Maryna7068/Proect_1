@@ -11,4 +11,8 @@ public class Elevator {
         return counter;
     }
 
+    public static void main(String[] args) {
+        System.out.println(elevator(200, 50, 1));
+    }
+
 }
