@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Timer {
     public static void timer(int sec) {
         System.out.println("ostalos " + sec + " sec");
@@ -9,7 +11,10 @@ public class Timer {
     }
 
     public static void main(String[] args) {
-        Timer.timer(3600);
+
+        Random random = new Random();
+        int num = random.nextInt(28801);
+        Timer.timer(num);
 
 
     }
