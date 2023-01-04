@@ -6,7 +6,6 @@ public class Elevator {
         while (floor < h){
             floor = floor + n - m;
             counter = counter+1;
-
         }
         return counter;
     }
